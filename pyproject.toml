@@ -1,0 +1,19 @@
+[tool.poetry]
+name = "pythonproject1"
+version = "0.1.0"
+description = ""
+authors = ["Annabse27 <annabse27@gmail.com>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.11"
+
+
+[tool.poetry.group.dev.dependencies]
+datetime = "^5.5"
+dt = "^1.1.63"
+pytest = "^8.1.1"
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
